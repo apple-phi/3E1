@@ -1,0 +1,88 @@
+% If you need extra functionality,
+% consider using the `scrartcl` class from KOMA-Script
+\documentclass[10pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{latexsym,amsfonts,amssymb,amsthm,amsmath}
+\usepackage{graphicx}
+% \graphicspath{ {../data} }
+
+% Force figures to stay in their section or subsection
+% https://tex.stackexchange.com/a/32623
+\usepackage[section]{placeins}
+% https://tex.stackexchange.com/a/118667
+\makeatletter
+\AtBeginDocument{%
+  \expandafter\renewcommand\expandafter\subsection\expandafter{%
+    \expandafter\@fb@secFB\subsection
+  }%
+}
+\makeatother
+
+\usepackage{pdfpages} % For including PDFs like the cover-sheet
+
+
+% Link references to figures
+% https://stackoverflow.com/a/21251925
+\usepackage{hyperref}
+\usepackage{caption}
+
+\title{3E1: On how proposed Schuldenbremse relaxation could affect the financial performance of Volkeswagen AG}
+\author{Lucas Ng\footnote{ln373@cam.ac.uk}}
+\date{9th December 2024}
+
+\begin{document}
+
+\maketitle
+
+% Topic 1: Reflect on how a recent or proposed UK/EU government economic policy
+% change will impact on the financial performance of a named business of your choice.
+% In answering the question, you may want to consider (non-exhaustive list):
+% 1. A description of the nature of the business you are analysing.
+% 2. A discussion of how the firm makes profits/a surplus now and how that may change
+% in the near future.
+% 3. An economic analysis of the key strategic choices that a firm of this type has to make
+% within its market(s).
+% 4. A description of the policy change you are analysing.
+% 5. An economic analysis, using relevant concepts and diagrams, of the potential effect
+% of the policy change.
+% 6. A discussion of how the business could best respond to the recent or proposed policy
+% change and what strategy it might adopt to enhance positive or mitigate negative
+% effects.
+% 7. References to relevant parts of the course and other references from the economic
+% literature.
+
+\section{Introduction}
+Volkeswagen AG (VW) is a German publicly-traded multinational conglomerate manufacturer of vehicles, engines and turbomachinery whose dominance in the automotive industry is underpinned by its diverse portfolio of brands including Volkswagen, Audi, Porsche, and Lamborghini. Its recent challenges include the transition to electric vehicles, the still-ongoing diesel emissions scandal, and the global semiconductor shortage.
+
+
+Amid Germany's slow but steady decent into economic malaise and political paralysis, the recent and well-documented collapse of the incumbent Chancellor Scholz's three-way coalition government has prompted fresh questions about the necessity of the Schuldenbremse, a constitutional debt brake that limits the federal government's structural deficit to 0.35\% of GDP in addition to the EU-wide fiscal restraints on overall budget deficits.\@
+The Schuldenbremse has been a cornerstone of German fiscal policy since its introduction in 2009 by ex-Chancellor Merkel,
+and while its proponents maintain that it has been essential in cementing Germany's historical position as fiscal policeman, its critics argue that it has stifled public investment and economic growth.
+
+In particular, this debt brake was instrumental in last year's  cancellation of proposed investments in the green energy transition which would have been significantly beneficial in VW's ability to fend off market competition from China. Considering the potential increase in Chinese competition diverted to the Eurozone due to Trumpian tariffs, the relaxation of the Schuldenbremse could be a boon to the financial performance of VW.
+
+\newpage
+
+\section {Nature of Volkeswagen}
+
+% • Multinational conglomerate manufacturer headquartered in Wolfsburg, Germany
+% • Founded in 1937, initially to produce the Beetle
+% • Largest automaker by sales in 2016-2019, selling 10.9 million vehicles
+% • Largest company in the European Union and largest car manufacturer globally by revenue in 2023
+% • Diverse brand portfolio:
+% Passenger cars: Volkswagen, Audi, Porsche, and Lamborghini
+% Motorcycles: Ducati
+% Commercial vehicles: Volkswagen Commercial Vehicles
+% Heavy commercial vehicles: Traton (International Motors, MAN, Scania, Volkswagen Truck & Bus)
+% • Operations in approximately 150 countries with 100 production facilities across 27 countries
+% • Two primary divisions: Automotive and Financial Services
+% • Significant presence in China through joint ventures: FAW-Volkswagen, SAIC Volkswagen, and Volkswagen Anhui
+
+Volkswagen AG is a multinational conglomerate manufacturer headquartered in Wolfsburg, Germany. Founded in 1937, it initially produced the Beetle and has since grown to become the largest automaker by sales in 2016-2019, selling 10.9 million vehicles. It is the largest company in the European Union and the largest car manufacturer globally by revenue in 2023. Volkswagen has a diverse brand portfolio, including passenger cars such as Volkswagen, Audi, Porsche, and Lamborghini, motorcycles such as Ducati, commercial vehicles such as Volkswagen Commercial Vehicles, and its business in heavy commercial vehicles under Traton SE.
+
+Volkswagen operates in approximately 150 countries with 100 production facilities across 27 countries. It has two primary divisions: Automotive and Financial Services. Volkswagen has a significant presence in China through joint ventures with FAW-Volkswagen, SAIC Volkswagen, and Volkswagen Anhui which have been instrumental in
+
+
+
+\end{document}
